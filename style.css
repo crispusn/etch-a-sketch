@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1{
+
+text-align: center;
+padding: 50px;
+border-bottom: 2px solid;
+font-size: 3rem; 
+margin-top: 2rem;
+
+
+
+}
+
+.container{
+
+ padding: 1rem;
+text-align: center;
+
+
+}
+
+.button{
+
+
+padding: 1rem;
+margin: 1rem;
+font-family: inherit;
+font-size: 2rem;
+color: white;
+background-color: grey;
+border-radius: 1rem;
+border: 2px solid black;
+
+
+}
+
+.button:hover {
+
+   background-color: lawngreen;
+   color: brown;
+}
+.button:active {
+
+
+    background-color: cyan;
+}
+
+.grid{
+
+ display: grid;
+ max-width: 600px;
+ min-height: 600px;
+ border:2px solid;
+ margin:  auto;
+text-align: center;
+
+}
+
+.grids
+{
+
+ border: 1px solid;
+ background-color: honeydew;
+
+}
